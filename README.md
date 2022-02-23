@@ -5,18 +5,18 @@ A non-empty array A consisting of N integers is given.
 A peak is an array element which is larger than its neighbours. More precisely, it is an index P such that 0 < P < N − 1 and A[P − 1] < A[P] > A[P + 1].
 
 For example, the following array A:
-    A[0] = 1
-    A[1] = 5
-    A[2] = 3
-    A[3] = 4
-    A[4] = 3
-    A[5] = 4
-    A[6] = 1
-    A[7] = 2
-    A[8] = 3
-    A[9] = 4
-    A[10] = 6
-    A[11] = 2
+   - A[0] = 1
+   - A[1] = 5
+   - A[2] = 3
+   - A[3] = 4
+   - A[4] = 3
+   - A[5] = 4
+   - A[6] = 1
+   - A[7] = 2
+   - A[8] = 3
+   - A[9] = 4
+   - A[10] = 6
+   - A[11] = 2
 
 has exactly four peaks: elements 1, 3, 5 and 10.
 
@@ -34,18 +34,19 @@ You can therefore set a maximum of three flags in this case.
 
 
 For example, the following array A:
-    A[0] = 1
-    A[1] = 5
-    A[2] = 3
-    A[3] = 4
-    A[4] = 3
-    A[5] = 4
-    A[6] = 1
-    A[7] = 2
-    A[8] = 3
-    A[9] = 4
-    A[10] = 6
-    A[11] = 2
+   - A[0] = 1
+   - A[1] = 5
+   - A[2] = 3
+   - A[3] = 4
+   - A[4] = 3
+   - A[5] = 4
+   - A[6] = 1
+   - A[7] = 2
+   - A[8] = 3
+   - A[9] = 4
+   - A[10] = 6
+   - A[11] = 2
+
 
 the function should return 3, as explained above.
 
