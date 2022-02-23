@@ -1,6 +1,4 @@
 #include "header.h"
-
-
 #include <math.h>
 
 void fill_peaks(const std::vector<int>& numbers, std::vector<int>& peaks_indx)
@@ -28,7 +26,7 @@ int solution(std::vector<int>& numbers)
 
 
     int dist = peaks_indx.back() - peaks_indx[0] + 1;
-    int max_flags = std::floor(std::sqrt(dist + 1));
+    int max_flags = std::floor(std::sqrt(dist)) + 1;
 
     while(max_flags >= 2)
     {
@@ -43,7 +41,7 @@ int solution(std::vector<int>& numbers)
             }
         }
 
-        if(cnt == max_flags)
+        if(cnt >= max_flags)
             break;
 
         --max_flags;
@@ -51,3 +49,5 @@ int solution(std::vector<int>& numbers)
 
     return max_flags;
 }
+
+
